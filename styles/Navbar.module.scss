@@ -1,0 +1,24 @@
+.navbar {
+  margin: 0;
+  padding: 0;
+  padding: 5px 20px;
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.navLinks {
+  text-decoration: none;
+  color: inherit;
+  font-size: 18px;
+  font-weight: 900px;
+
+  &:visited {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  &:hover{
+    background-color: #f4dcdc;
+  }
+}

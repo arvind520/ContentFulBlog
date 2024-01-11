@@ -1,0 +1,15 @@
+.postContainer{
+    border: 1px solid gray;
+    width: 40%;
+    min-width: 300px;
+    text-align: center;
+    margin: 100px auto;
+    background-color: whitesmoke;
+    padding: 20px;
+    h1{
+        border-bottom: 1px solid black;
+        width: fit-content;
+        font-size: 2em;
+        margin: 20px auto;
+    }
+}

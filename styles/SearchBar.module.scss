@@ -1,0 +1,14 @@
+.searchContainer{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    div{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        span{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

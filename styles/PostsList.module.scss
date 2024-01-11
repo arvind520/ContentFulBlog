@@ -1,0 +1,33 @@
+.postCard {
+    width: 25%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+
+  &:hover {
+    text-decoration: none;
+    color: #007acc;
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+  
+}
+
+.postSection{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

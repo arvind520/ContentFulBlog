@@ -1,14 +1,27 @@
-import Link from 'next/link'
-import Layout from '../components/Layout'
+import React from "react";
+import Navbar from "../components/Navbar";
+import styles from "../styles/About.module.scss"
 
-const AboutPage = () => (
-  <Layout title="About | Next.js + TypeScript Example">
-    <h1>About</h1>
-    <p>This is the about page</p>
-    <p>
-      <Link href="/">Go home</Link>
-    </p>
-  </Layout>
-)
+const About: React.FC = () => {
+  return (
+    <div>
+      <Navbar />
+      <div className={styles.aboutContainer}>
+      <h1>About Page</h1>
+      <section className={styles["created-by-section"]}>
+        <div className={styles["container"]}>
+          <p>Created by Arvind Chauhan using:</p>
+          <ul>
+            <li>NextJS</li>
+            <li>Contentful</li>
+            <li>Algolia</li>
+            <li>SCSS</li>
+          </ul>
+        </div>
+      </section>
+      </div>
+    </div>
+  );
+};
 
-export default AboutPage
+export default About;

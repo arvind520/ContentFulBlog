@@ -7,9 +7,17 @@
     "type-check": "tsc"
   },
   "dependencies": {
+    "algoliasearch": "^4.22.1",
+    "axios": "^1.6.5",
+    "contentful": "^10.6.16",
+    "dotenv": "^16.3.1",
+    "instantsearch.js": "^4.63.0",
     "next": "latest",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-instantsearch-core": "^7.5.0",
+    "react-instantsearch-dom": "^6.40.4",
+    "sass": "^1.69.7"
   },
   "devDependencies": {
     "@types/node": "^12.12.21",
